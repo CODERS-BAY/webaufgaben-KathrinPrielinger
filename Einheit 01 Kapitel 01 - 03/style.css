@@ -1,0 +1,90 @@
+
+
+body {
+    background-color: rgb(231, 212, 188);
+}
+
+header {
+    background-color: hsl(0, 36%, 96%);
+    
+    
+
+}
+
+nav {
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 2em;
+font-weight: bold;
+
+}
+
+main {
+    
+    color: #1f1d1d;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 2.2em;
+    
+}
+
+article {
+    background: grey;
+    padding: 30px;
+    line-height: 1.5;
+    margin-left: 3.5%;
+    margin-right: auto;
+    
+    margin-bottom: 3.5%;
+    float: left;
+    width: 45%;
+    box-sizing: border-box;
+    border: 10px;
+    border-radius: 15px 50px;
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+
+h1 {
+    font-family: 'Lexend Mega';
+    font-size: 1.5em;
+}
+
+h2 {
+    font-family: 'Lexend Mega';
+    font-size: 1em;
+}
+
+h3 {
+    font-family: 'Lexend Mega';
+    font-size: 1.5em;
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-size: 1em;
+}
+
+ul {
+    list-style: square inside;
+}
+
+img {
+    max-height: 700px;
+    max-width: 95%;
+    display: block;
+    margin: 3.5% auto;
+    border-radius: 25px;
+    border: whitesmoke dashed 5px;
+}
+
+
+
+footer {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.stress {
+    text-decoration: line-through;
+    text-align: center;
+}
