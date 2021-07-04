@@ -1,0 +1,35 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-image: url(https://millesoixantequatre.com/wp-content/uploads/2017/12/2018-832x468.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fill;
+    z-index: 15;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home1 {
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    flex-direction: column;
+  }
