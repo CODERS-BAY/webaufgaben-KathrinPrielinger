@@ -1,0 +1,225 @@
+body {
+    display: grid;
+    background-image: url(https://image.saechsische.de/954x636/m/5/m5067ovt4pi7w9pjuoub6jnjmvah4pq6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+   
+}
+
+h1 {   
+    justify-self: center;
+    margin-bottom: 0;
+    color: whitesmoke;
+    font-size: 4rem;
+}
+
+h3 {
+    justify-self: center;
+    margin-top: 0.5rem;    
+    color: whitesmoke;
+}
+
+.Begriff {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    background-color: whitesmoke;
+    margin: 1rem;
+}
+
+.Bewegung {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    background-color: whitesmoke;
+    margin: 1rem;
+}
+
+.Symbole {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    background-color: whitesmoke;
+    margin: 1rem;
+}
+
+.Religion {
+    grid-column: 1 /5;
+    grid-row: 3 / 4;
+    background-color: whitesmoke;
+    margin: 1rem;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.infoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    background-color: rgb(233, 186, 68);
+}
+
+.infoGrid section {
+    padding: 1rem;
+}
+
+.rastafariMovement {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40rem 40rem;
+    
+}
+
+.rasta {
+    display: grid;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: green;
+}
+
+.rasta1, .rasta2, .rasta3, .rasta4, .rasta5, .rasta6 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+@media screen and (min-width: 460px) {
+    .infoGrid {
+        background-color: orangered;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .infoGrid {
+        background-color: lightslategray;
+    }
+}
+
+@media screen and (min-width: 1060px) {
+    .infoGrid {
+        background-color:rgb(233, 186, 68);
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .rastafariMovement {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (min-width: 460px) {
+    .rastafariMovement {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (min-width: 560px) {
+    .rastafariMovement {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .navi ul {
+        display: block;
+        padding-left: 0;
+    }
+    .navi li {
+        margin: 0.2rem;  
+    }
+}
+
+
+/*moreGridlayout*/
+.gridRaster {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-auto-flow: dense;
+    background-color:goldenrod;
+    padding: 2rem;
+}
+
+img {
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 0.3rem dotted green;
+    border-radius: 2rem;
+}
+
+.moreRasta1 {
+    grid-column: span 2;
+    grid-row: auto;
+}
+
+.moreRasta2 {
+    grid-column: span 4;
+    grid-row: auto;
+}
+
+.moreRasta3 {
+    grid-column: span 2;
+    grid-row: auto;
+}
+
+.moreRasta4 {
+    grid-column: span 2;
+    grid-row: auto;
+}
+
+.moreRasta5 {
+    grid-column: span 3;
+    grid-row: auto;
+}
+
+.moreRasta6 {
+    grid-column: span 3;
+    grid-row: auto;
+}
+
+.moreRasta7 {
+    grid-column: span 4;
+    grid-row: auto;
+}
+
+.moreRasta8 {
+    grid-column: span 2;
+    grid-row: auto;
+}
+
+.moreRasta9 {
+    grid-column: span 4;
+    grid-row: auto;
+}
+
+.moreRasta10 {
+    grid-column: span 1;
+    grid-row: auto;
+}
+
+.moreRast11 {
+    grid-column: span 1;
+    grid-row: span 3;
+}
