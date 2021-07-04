@@ -1,0 +1,6 @@
+Web JS Game 3: Zahlen raten:
+
+Erstelle ein Spiel, bei dem eine bestimmte Zahl zwischen 0 und X erraten werden soll.
+Es gibt 3 Versuche. Nach jedem falschen Versuch kommt eine Meldung, ob die eingegebene Zahl zu groß oder zu klein als die gesuchte Zahl war.
+Nach 3 falschen Versuchen kommt die Meldung: Verloren
+Wurde die Zahl richtig erraten kommt die Meldung: Gewonnen, die Zahl ist richtig.

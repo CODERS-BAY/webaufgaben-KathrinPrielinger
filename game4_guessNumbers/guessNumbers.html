@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guess numbers</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Guess numbers</h1>
+    </header>
+
+    <main>
+        <article class="flex-container">
+            <section>
+                <p>Gib die niedrigste Nummer ein</p>
+                <input type="number" name="setTries" id="setTries" onchange="setMaxTries()">
+            </section>
+
+            <section>
+                <p>Gib die höchste Nummer ein</p><input type="number" name="highestNumber" id="highestNumber" onchange="setHighestNumber()">
+            </section>
+        </article>
+
+        <p id="highestNumberShow"></p>
+
+        <article>
+            <p>Gib deinen Tipp ab!</p>
+            <input type="text" name="inputNumber" id="inputNumber">
+            <button type="button" onclick="inputCheck()">Rate mal!</button>
+        </article>
+
+        <article>
+            <p id="tryCounter">Verbleibende Versuche: </p>
+            <p id="remainingTryCounter"></p>
+            <p id="infoText"></p>
+        </article>
+
+        <button type="reset" id="reset" onclick="reset()">Reset</button>
+    </main>
+</body>
+<script src="js/guessNumbers.js"></script>
+
+</html>
