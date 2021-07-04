@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guess numbers</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <article>
+            <section class="Überschrift">
+                <h1>Guess numbers</h1>
+            </section>
+            
+        </article>
+
+        <article>
+            <section class="Versuche">     
+                <p>Anzahl der Versuche</p>
+                <input type="number" name="setTries" id="setTries" onchange="setMaxTries()">           
+            </section>    
+            
+            <section class="höchsteNum"> 
+                <p>Gib die höchste Nummer ein: 1 - X</p><input type="number" name="highestNumber" id="highestNumber" onchange="setHighestNumber()">           
+            </section>
+        </article>
+
+        <article>
+            <section class="Tipp">
+                <p>Gib deinen Tipp ab!</p>
+                <input type="text" name="inputNumber" id="inputNumber">
+                <button type="button" onclick="inputCheck()">Rate mal!</button>
+            </section>
+        
+            <section class="verbleibendeVersuche">
+                <p id="tryCounter">Verbleibende Versuche: </p>
+                <p id="remainingTryCounter"></p>
+                <p id="infoText"></p>
+            </section>
+        </article>
+
+    </main>
+</body>
+<script src="js/codeBreaker.js"></script>
+
+</html>
