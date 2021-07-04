@@ -1,0 +1,137 @@
+body {
+    display: grid;
+    background-image: url(https://www.day-one.biz/wp-content/uploads/2020/12/Schermata-2020-12-14-alle-23.07.11.png);
+    background-repeat: no-repeat;
+    font-family:'Courier New', Courier, monospace;
+}
+
+p {
+    font-size: 30px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h1 {   
+    align-items: center;
+    margin-bottom: 0;
+    color: black;
+    font-size: 4rem;
+    font-size: 70px;
+}
+
+.Überschrift {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    margin: 1rem;
+    opacity: 82%;
+}
+
+.Versuche {
+    grid-column: 1 /2;
+    grid-row: 1 / 2;
+    background-color: rgb(233, 186, 68);
+    margin: 1rem;
+    opacity: 82%;
+}
+
+.höchsteNum {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    background-color: rgb(233, 186, 68);
+    margin: 1rem;
+    opacity: 82%;
+}
+
+.zeigHöchsteNum {
+    grid-column: 1 / 4;
+    grid-row: 1 / 1;
+    background-color: rgb(233, 186, 68);
+    margin: 1rem;
+    opacity: 82%;
+}
+
+.Tipp {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: rgb(233, 186, 68);
+    margin: 1rem;
+    opacity: 82%;
+}
+
+.verbleibendeVersuche {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    background-color: rgb(233, 186, 68);
+    margin: 1rem;
+    opacity: 82%;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    text-align: center;   
+}
+
+button {
+    background-color: coral;
+    min-width: 200px;
+    min-height: 70px;
+    opacity: 100%;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+input {
+    min-width: 80%;
+    min-height: 50px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+section {
+    padding: 1rem;
+}
+
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+@media screen and (min-width: 360px) {
+    .rastafariMovement {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (min-width: 460px) {
+    .rastafariMovement {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (min-width: 560px) {
+    .rastafariMovement {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .navi ul {
+        display: block;
+        padding-left: 0;
+    }
+    .navi li {
+        margin: 0.2rem;  
+    }
+}
