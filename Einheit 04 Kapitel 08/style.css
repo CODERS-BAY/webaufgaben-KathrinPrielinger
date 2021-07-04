@@ -1,0 +1,213 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10%;
+    color: #662C0C;
+}
+
+header {
+    display: flex;
+    background-color:#91A66A;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: solid #166665;
+    border-bottom-width: 4px;
+}
+
+footer {
+    display: flex;
+    background-color:#91A66A;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0px 0px 20px 20px;
+    border-top: solid #166665;
+    border-bottom-width: 4px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    color: #166665;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px 2px rgb(236, 228, 228);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #166665;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px 2px rgb(236, 228, 228);
+}
+
+img {
+    margin: 20px;
+    object-fit: cover;
+    width: 40%; 
+}
+
+iframe {
+    display: flex;
+    object-fit: cover;
+    width: 40%;
+    position: relative;
+    
+    padding-top: 3%;
+}
+
+tr, th, td { 
+    text-align: left;
+    border: 2px solid;
+}
+
+th, td {
+    padding: 8px;
+  }
+
+article {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 5% 10% 5% 10%;
+    background-color: #91A66A; 
+}
+
+.background-startseite {
+    background-image: url("https://images.unsplash.com/photo-1503918756811-975bd3397178?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 85%;
+    position: relative;
+}
+
+.container-startseite {
+    display: flex;
+    width: 70%;
+    background-color: lightgrey;
+    opacity: 85%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    position: relative;
+    font-size: 15px;
+}
+
+.background-infos {
+    background-image: url("https://images.unsplash.com/photo-1503918756811-975bd3397178?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 85%;
+    position: relative;
+}
+
+table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    opacity: 75%;
+    padding: 2.5%;
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 70%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    margin: 60px;
+}
+
+.background-formular {
+    background-image: url("https://images.unsplash.com/photo-1503918756811-975bd3397178?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 85%;
+    position: relative;
+}
+
+form {
+    display: flex;
+    
+    padding: 20px;
+    
+    background-color: lightgrey;
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+form p {
+    font-family: 'Oswald';
+    text-align: center;
+}
+
+form h1 {
+    font-family: 'Boogaloo', serif;
+    font-style: italic;
+    font-weight: 700;
+    border-bottom: 4px solid #e94e6a;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+form p {
+    font-family: 'Oswald';
+    text-align: center;
+}
+
+.formular {
+    display: flex;
+    padding: 8px 10px;
+    font-family: 'Oswald';
+ }
+
+iframe {
+    position: relative;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    opacity: 85%;
+    margin-left: 120px;
+}
+
+.hidden {
+    visibility: hidden;
+    display: flex;
+    padding: 8px 10px;
+    font-family: 'Oswald';
+}
+
+input {
+    display: flex;
+    margin-left: 10px;
+}
+

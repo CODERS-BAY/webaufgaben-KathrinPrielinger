@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+    <title>
+        Zoo
+    </title>
+
+</head>
+
+<body>
+
+<header>
+
+        <nav>
+            <a href="index.html">Willkommen</a>
+            <a href="infoseite.html">Infos über den Zoo</a>
+            <a href="kontakt.html">Kontakt</a>     
+        </nav>
+
+</header>
+
+<main class="background-startseite">
+    <h1>Kontaktformular</h1>
+    <div class="container-startseite">
+        
+
+       <form  action="mailto:k.prielinger@gmail.com" method="get">
+              
+              <section>
+                <div class="formular">
+                    <label for="gender">Herr/Frau</label>   
+                    <input type="text" id="gender">
+                </div>
+        
+                  <div class="formular">   
+                          <label for="firstName">Vorname</label>    
+                          <input type="text" id="firstName">   
+                  </div>
+          
+                  <div class="formular">          
+                      <label for="street">Straße</label>         
+                      <input type="text" id="street">    
+                  </div>
+                 
+                  <div class="formular">
+                      <label for="country">Land</label>
+                      <input type="text" id="country">
+                  </div>
+          
+                  <div class="formular">
+                      <label for="email">Mail</label>
+                      <input type="email" id="email">
+                  </div>
+
+                  <div class="formular">
+                    <label for="besuchstag">Besuchstag</label>
+                    <input type="date" id="besuchstag">
+                </div>
+        
+                <div class="formular">
+                    <label for="gefälltMir">Hat es Ihnen gefallen?</label>
+                    <input type="range" id="gefälltMir">
+                </div>
+
+                <div class="formular">
+                    <label for="lieblingsTierart">Was ist Ihre Lieblingstierart?</label>
+                    <input type="datalist" id="lieblingsTierart">
+                </div>
+        
+                <div class="formular">
+                    <label for="textarea">Kommentare</label>
+                    <input type="textarea" id="textarea">
+                </div>
+          
+                  <div class="formular">
+                    <label for="email">Datenschutzerklärung akzeptieren</label>
+                    <input type="checkbox" name="privacyPolicy" value="accepted">
+                  </div>
+          
+                  <div class="formular">
+                    <label for="checkbox">Rufen Sie mich zurück</label>
+                    <input type="checkbox" name="callMe" value="accepted">
+                </div>
+
+            </section>
+                  
+              <section>
+                <div class="hidden">
+                  <label for="hiddenElement">hidden</label>
+                  <input type="text" id="hiddenElement">             
+                </div>
+          
+                <div class="formular">
+                  <label for="lastName">Nachname</label>
+                  <input type="text" id="lastName">
+              </div>
+          
+                  <div class="formular">
+                      <label for="number">Nummer</label>
+                      <input type="number" id="number">
+                  </div>
+          
+                  <div class="formular">          
+                      <label for="postcode">PLZ</label>  
+                      <input type="number" id="postcode">
+                 </div>
+          
+                  <div class="formular">
+                      <label for="phone">Tel.Nr.</label>
+                      <input type="number" id="phone">
+                  </div>
+           
+                  <div class="formular">
+                    <label for="timeOfVisit">Besuchszeit</label>
+                    <input type="time" id="timeOfVisit">
+                </div>
+        
+                <div class="formular">
+                    <label for="empfehlung">Weiterempfehlung</label>
+                    <input type="checkbox" id="empfehlung">
+                </div>
+
+                <div class="formular">
+                    <label for="besucherinfo">Besucherinfo</label>
+                    <input type="datalist" id="country">
+                </div>
+
+                 <div class="formular">
+                  <button type="submit" name="action" value="submit">Bestätigen</button>
+                 </div>
+
+                 <div class="formular">
+                    <button type="reset" name="action" value="reset">Eingaben löschen</button>
+                   </div>
+              </section>                 
+        </form>
+</main>
+
+<footer>
+    <p>Kathrin Prielinger</p>
+    <a href="imprint.html">Impressum</a>
+    <a href="privacyPolicy.html">Datenschutz</a>
+</footer>
+
+</body>
+
+</html>

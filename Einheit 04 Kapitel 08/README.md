@@ -2,11 +2,11 @@
 
 ## Thema: Zoo und seine Bewohner
 
-### 1. Seite: Willkommensseite
+    ### 1. Seite: Willkommensseite
 - Willkommensblabla mit Bild(ern) und einem YouTube/Vimeo Video (erinnere dich an *Übung 3*)
 - Erstelle eine Definitionsliste geordnet nach Säugetiere, Insekten, Fische, Vögel, (...) die in diesem Zoo beheimatet sind
 
-### 2. Seite: Infoseite
+    ### 2. Seite: Infoseite
 Tabelle mit folgenden Spalten:
 1. Tier 
 2. Vegetarier (ja/nein)
@@ -20,7 +20,7 @@ Tabelle mit folgenden Spalten:
 * Ordne mehrere Tiere untereinander, bei denen du mittels senkrechter Zellenverbindung einen Eintrag für mehrere Tiere setzen kannst
 * Tip: mit der css Eigenschaft width: 100%; kannst du die Tabelle halbwegs responsive machen.
 
-### 3. Seite: Kontaktseite
+    ### 3. Seite: Kontaktseite
 
 Auf dieser Seite soll es ein Formular geben.<br>
 Felder die Abgefragt werden (achte auf die Validierung):
